@@ -14,13 +14,13 @@ body{
 
 main{
     max-width: 1560px;
+    margin: 0 auto;
 }
 
 /* Nav Style */
 .nav-container{
     display: flex;
     max-width: 1560px;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: center
 }
@@ -41,6 +41,10 @@ main{
     width: 50%;
 }
 
+.nav-bar .menu-bar{
+    display: none;
+}
+
 .nav-bar ul{
     display: flex;
     justify-content: space-between;
@@ -58,3 +62,20 @@ main{
 .nav-bar ul li .home-menu{
     color: var(--primary-color);
 }
+
+/* Banner Section */
+
+.banner-section{
+}
+
+.banner{
+    background-image: url('../images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size:cover;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+

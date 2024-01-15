@@ -6,6 +6,8 @@
     <title>Panda Travels</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/responsive-tab.css">
+    <script src="https://kit.fontawesome.com/169e7bf012.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,15 +25,44 @@
                         <li><a href="">Blog</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
+                    <div class="menu">
+                        <i class="fa-solid fa-bars menu-bar"></i>
+                    </div>
                 </div>
             </div>
         </nav>
-
-
     </header>
-
+        <!-- Main Section Start... -->
     <main>
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <div class="banner">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="banner-description">Enjoy your vacation with us. Explore the world with minimum cost. Want to go for a travel? Search here for find trip.</p>
+                <form action="" class="banner-form">
 
+                    <input type="text" placeholder="Where go">
+
+                    <label placeholder="Where" for="when"></label>
+                    <select name="when" id="">
+                        <option value="all">All</option>
+                        <option value="today">Tomorrow</option>
+                        <option value="next-week">Next-Week</option>
+                        <option value="one-month-later">1 month later</option>
+                    </select>
+
+                    <label for="type"></label>
+                    <select name="type" id="">
+                        <option value="short">Short</option>
+                        <option value="long">Long</option>
+                        <option value="foreign-tour">Forein Tour</option>
+                    </select>
+
+                    <button class="btn-primary">Find Now</button>
+
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
