@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;700;800&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Mulish', sans-serif;
@@ -187,12 +193,56 @@ main{
 }
 
 
+
+
+
+
+
 /* Destination Section */
 
 .destination-text{
     text-align: center;
 }
 
+.destination-img{
+    display: flex;
+    gap: 24px;
+}
 
+.dest-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Why choose us section */
+
+.choose-container{
+    display:grid;
+    gap: 24px;
+    justify-content: center;
+    grid-template-rows: repeat(2 1fr);
+}
+
+.choose-box{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    /* max-width:100%; */
+    padding: 32px;
+    
+}
+
+.choose-box img{
+    width: 50px;
+}
 
 
