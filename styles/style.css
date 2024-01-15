@@ -1,6 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;700;800&display=swap');
 
 body{
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     font-family: 'Mulish', sans-serif;
+}
+
+:root{
+    --primary-color:#FF5400;
+    --p-black: rgba(19, 19, 24, 0.70);
+    --header-font: #131318;
+    --dark-ash: #5A5A5D;
+}
+
+main{
+    max-width: 1560px;
+}
+
+/* Nav Style */
+.nav-container{
+    display: flex;
+    max-width: 1560px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-title{
+    color: var(--header-font);
+    font-size: 2.25rem;
+    font-weight: 800;
+    width: 50%;
+}
+
+.nav-title .nav-span{
+    color: var(--primary-color);
+}
+
+
+.nav-bar{
+    width: 50%;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: var(--dark-ash);
+}
+
+.nav-bar ul li .home-menu{
+    color: var(--primary-color);
 }
