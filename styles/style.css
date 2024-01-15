@@ -14,6 +14,7 @@ body{
 
 /* Shared common Style */
 .btn-primary{
+    color: white;
     border-radius: 8px;
     background: #FF5400;
     font-size: 1rem;
@@ -21,15 +22,29 @@ body{
     padding: 16px 35px;
 }
 
+.common-title{
+    color: var(--header-font);
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.common-description{
+    color: var(--p-black);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 main{
-    max-width: 1560px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* Nav Style */
 .nav-container{
     display: flex;
-    max-width: 1560px;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -91,6 +106,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .banner-title{
@@ -141,6 +157,33 @@ main{
     background: #FFF;
 
 }
+
+
+/* Popular Section */
+
+.popular-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-text{
+    width: 50%;
+}
+
+.popular-text h2,p,ul{
+    margin-bottom: 24px;
+}
+.popular-text ul li{
+    margin-bottom: 16px;
+}
+
+.popular-paragraph{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 
 

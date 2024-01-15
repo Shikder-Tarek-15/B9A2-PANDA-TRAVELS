@@ -11,5 +11,14 @@
         font-size: 1.3rem;
     }
 
-    
+    .popular-container{
+        flex-direction: column;
+    }
+
+    .popular-text{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
