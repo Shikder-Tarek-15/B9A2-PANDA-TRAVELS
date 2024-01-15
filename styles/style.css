@@ -12,6 +12,15 @@ body{
     --dark-ash: #5A5A5D;
 }
 
+/* Shared common Style */
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 35px;
+}
+
 main{
     max-width: 1560px;
     margin: 0 auto;
@@ -22,7 +31,9 @@ main{
     display: flex;
     max-width: 1560px;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin: 0 auto;
+    
 }
 
 .nav-title{
@@ -65,17 +76,72 @@ main{
 
 /* Banner Section */
 
-.banner-section{
-}
+/* .banner-section{
+} */
 
 .banner{
     background-image: url('../images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    height: 500px;
+    /* height: 500px; */
     background-size:cover;
-    padding: 50px;
+    padding: 106px 185px;
     text-align: center;
-    margin: 0 auto;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+    max-width: 676px;
+}
+
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.banner-form input,.banner-form select,button{
+    border: none;
+}
+
+.banner input{
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+.banner-form select {
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+
+
 
