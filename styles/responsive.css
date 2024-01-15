@@ -19,5 +19,21 @@
 
     /* Banner section */
 
-    
+    .banner{
+        padding: 16px 32px;
+    }
+    .banner .banner-title{
+        font-size: 1.3rem;
+    }
+
+    .banner .banner-description{
+        font-size: 0.8rem;
+    }
+
+    .banner-form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        gap: 16px;
+    }
 }
