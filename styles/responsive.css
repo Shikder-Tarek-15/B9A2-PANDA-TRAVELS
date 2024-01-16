@@ -63,4 +63,33 @@
         justify-content: center ;
 
     }
+
+
+
+    .simple-perfect{
+        flex-direction: column;
+    }
+
+    .simple-perfect-img{
+    }
+
+
+
+
+    .newsletter-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    footer{
+        margin: 0;
+    }
+
+    .footer-content{
+        max-width: 100%;
+    }
 }
