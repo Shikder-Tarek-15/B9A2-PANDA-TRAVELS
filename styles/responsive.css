@@ -4,11 +4,17 @@
 
     .common-title{
     font-size: 1.25rem;
+    /* text-align: center; */
     }
 
     .common-description{
         font-size: 0.875rem;
+        /* text-align: center; */
     }
+
+    /* .common-h3{
+        text-align: center;
+    } */
     
     .nav-container{
         justify-content: space-between;
@@ -73,6 +79,10 @@
     .simple-perfect-img{
     }
 
+    /* .simple-ul{
+        text-align: center;
+    } */
+
 
 
 
@@ -80,6 +90,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .newsletter-img{
+        margin-top: 50px;
     }
 
 
