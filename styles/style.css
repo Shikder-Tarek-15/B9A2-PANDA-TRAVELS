@@ -115,7 +115,7 @@ main{
 } */
 
 .banner{
-    background-image: url("../images/Group-13.png");
+    background-image: url("../Images/Group-13.png");
     background-repeat: no-repeat;
     /* height: 500px; */
     background-size:cover;
@@ -324,17 +324,17 @@ main{
 
 
 .deal-discount-1{
-    background-image: url('../images/Group-39.png');
+    background-image: url('../Images/Group-39.png');
     background-repeat: no-repeat;
     height: 1170px;
     width: 500px;
 }
 .deal-discount-2{
-    background-image: url('../images/Group-40.png');
+    background-image: url('../Images/Group-40.png');
     background-repeat: no-repeat;
 }
 .deal-discount-3{
-    background-image: url('../images/Group-39.png');
+    background-image: url('../Images/Group-39.png');
     background-repeat: no-repeat;
 }
 
