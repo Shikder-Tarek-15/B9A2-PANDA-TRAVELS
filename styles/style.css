@@ -11,6 +11,18 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+.temporary{
+    background-image: url("../images/Group-40.png");
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.new-temp{
+    color: #8d11f3;
+}
+
 :root{
     --primary-color:#FF5400;
     --p-black: rgba(19, 19, 24, 0.70);
@@ -441,16 +453,6 @@ margin-bottom: 15px;
 }
 
 
-.temporary{
-    background-image: url("../images/Group-40.png");
-    background-size: cover;
-    height: 500px;
-    width: 500px;
-    
-}
 
-.new-temp{
-    color: #5A5A5D;
-}
 
 
