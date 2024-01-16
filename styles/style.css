@@ -114,6 +114,7 @@ main{
 
 .banner{
     background-image: url("../images/Group-13.png");
+    background-color: rebeccapurple;
     background-repeat: no-repeat;
     /* height: 500px; */
     background-size:cover;
