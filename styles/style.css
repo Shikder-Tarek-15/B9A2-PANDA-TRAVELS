@@ -260,7 +260,7 @@ main{
 
 /* Why choose us section */
 
-choose-container{
+.choose-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -293,25 +293,9 @@ choose-container{
     background: rgba(41, 206, 246, 0.05);
 }
 
-.box-1{
-    grid-area: box-1;
-}
-.box-2{
-    grid-area: box-2;
-}
-.box-3{
-    grid-area: box-3;
-}
 
-.choose-container{
-    display: grid;
-    grid-template-areas:
-    "box-1 box-1 box-2 box-2"
-    
-    "                       "
-    "..    box-3 box-3   .. "
-    ;
-}
+
+
 
 
 
@@ -326,7 +310,7 @@ choose-container{
 .deal-discount-1{
     background-image: url('../images/Group\ 39.png');
     background-repeat: no-repeat;
-    height: 100%;
+    height: 1170px;
     width: 500px;
 }
 .deal-discount-2{
