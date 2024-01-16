@@ -1,6 +1,9 @@
 @media screen and (max-width:600px) {
 
     /* Common Shared Style */
+    main{
+        margin: 0 auto;
+    }
 
     .common-title{
     font-size: 1.25rem;
