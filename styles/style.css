@@ -124,12 +124,12 @@ main{
 /* .banner-section{
 } */
 
-.banner{
-    background-image: url("../images/Group-39.png");
+.banner-bg{
+    background-image: url("Group-13.png");
     background-repeat: no-repeat;
     /* height: 500px; */
     background-size:cover;
-    padding: 106px 185px;
+    /* padding: 106px 185px; */
     /* text-align: center;
     border-radius: 16px;
     display: flex;
