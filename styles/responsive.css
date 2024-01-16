@@ -61,7 +61,7 @@
     }
 
     .popular-text{
-        margin-left: 10px;
+        margin-left: 20px;
         margin-right: 10px;
         width: 100%;
         margin-bottom: 20px;
@@ -82,9 +82,12 @@
 
     .simple-perfect{
         flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10px;
     }
 
     .simple-perfect-img{
+        
     }
 
     /* .simple-ul{
@@ -101,10 +104,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 65vh;
     }
 
     .newsletter-img{
         margin-top: 50px;
+    }
+
+    .newsletter-text {
+        margin-left: 30px;
     }
 
 
