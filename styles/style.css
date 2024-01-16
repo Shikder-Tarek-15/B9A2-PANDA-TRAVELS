@@ -113,18 +113,18 @@ main{
 } */
 
 .banner{
-    background-image: url('../images/Group-13.png');
+    background-image: url("../images/Group-13.png");
     background-repeat: no-repeat;
     /* height: 500px; */
     background-size:cover;
     padding: 106px 185px;
-    text-align: center;
+    /* text-align: center;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
 }
 
 .banner-title{
