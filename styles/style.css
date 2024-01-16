@@ -242,7 +242,7 @@ main{
 }
 
 .image-3{
-    
+    grid-column: 1/span 2;
 }
 
 .image-4{
