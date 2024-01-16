@@ -57,4 +57,10 @@
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .popular-img{
+        display: flex;
+        justify-content: center ;
+
+    }
 }
