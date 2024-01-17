@@ -68,6 +68,7 @@ main{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    height: 100px;
     
 }
 
@@ -536,9 +537,7 @@ font-weight: 700;
 
 }
 
-.newsletter-img img{
-    /* width: 100%; */
-}
+
 
 .newsletter-img .newsletter-off{
     background-color:#FF5400;
