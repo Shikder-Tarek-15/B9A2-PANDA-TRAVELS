@@ -209,6 +209,9 @@ main{
     width: 50%;
 }
 
+.popular-img img{
+    width: 100%;
+}
 
 
 
@@ -528,9 +531,15 @@ font-weight: 700;
 
 .newsletter-img{
     position: relative;
+    /* width: 100%; */
     
 
 }
+
+.newsletter-img img{
+    /* width: 100%; */
+}
+
 .newsletter-img .newsletter-off{
     background-color:#FF5400;
     border-radius: 16px;

@@ -1,5 +1,9 @@
 @media screen and (min-width:600px) and (max-width:992px) {
    
+    main{
+        width: 100%;
+        padding: 0 1rem;
+    }
     .banner{
         padding: 20px 40px;
     }
