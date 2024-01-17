@@ -51,6 +51,14 @@
         font-size: 0.8rem;
     }
 
+    .banner-title{
+        color: gray;
+    }
+    
+    .banner-description{
+        color: gray;
+    }
+
     .banner-form{
         display: flex;
         flex-direction: column;
